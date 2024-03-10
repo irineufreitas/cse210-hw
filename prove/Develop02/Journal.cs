@@ -54,7 +54,7 @@ public class Journal
 
             foreach (string line in lines)
             {
-
+                Console.WriteLine($"Here are the entries \n{line}");
             }
 
         }   

@@ -74,9 +74,9 @@ class Program
             }
             else if (userInt == 5)
             {
-                //write function to be called here from other files
+                //quit one
             }
-                //add prompts to the other file
+                
 
         }
         
