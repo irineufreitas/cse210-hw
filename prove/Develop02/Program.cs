@@ -19,8 +19,8 @@ class Program
 
             Console.WriteLine("1. Write");
             Console.WriteLine("2. Display");
-            Console.WriteLine("3. Load");
-            Console.WriteLine("4. Save");
+            Console.WriteLine("3. Save");
+            Console.WriteLine("4. Load");
             Console.WriteLine("5. Quit");
             Console.Write("What would you like to do?");
 
@@ -38,6 +38,10 @@ class Program
                 Console.WriteLine(randomPrompt);
                 Console.Write(">");
                 string written1 = Console.ReadLine();
+                //Exceeding Requirements (New Information being requested)
+                Console.WriteLine("What scripture did you read today?");
+                string scriptuRead = Console.ReadLine();
+
 
                 DateTime currentTime = DateTime.Now;
                 string dateString = currentTime.ToShortDateString();
@@ -46,7 +50,7 @@ class Program
                 writtenLine._date = dateString;
                 writtenLine._entryText = written1;
                 writtenLine._promptText = randomPrompt;
-                
+                writtenLine._scripture = scriptuRead;
                 
                 journal.AddEntry(writtenLine);
 

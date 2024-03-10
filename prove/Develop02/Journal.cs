@@ -18,6 +18,7 @@ public class Journal
         {
             Console.WriteLine($"Date: {entry._date} - Prompt: {entry._promptText} ");
             Console.WriteLine($"Entry: {entry._entryText} ");
+            Console.WriteLine($"Scripture Read: {entry._scripture} ");
             Console.WriteLine("\n");
         }
         
@@ -35,10 +36,11 @@ public class Journal
         {
             outputFile.WriteLine($"Date: {entry._date} - Prompt: {entry._promptText}");
             outputFile.WriteLine($"Entry: {entry._entryText}");
+            outputFile.WriteLine($"Scripture of the day: {entry._scripture}");
             outputFile.WriteLine();
         }
 
-        Console.WriteLine("File saved successfully!");
+        Console.WriteLine($"File saved successfully!\n");
 
     }
     
@@ -54,14 +56,16 @@ public class Journal
 
             foreach (string line in lines)
             {
-                Console.WriteLine($"Here are the entries \n{line}");
+                Console.WriteLine();
+                Console.WriteLine($"{line}");
+                Console.WriteLine();
             }
 
         }   
 
         else
         {
-            Console.WriteLine("File does not exist");
+            Console.WriteLine("File does not exist\n");
         }
         
         
