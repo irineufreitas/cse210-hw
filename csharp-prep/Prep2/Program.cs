@@ -3,7 +3,8 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {
+    {   
+        // percetage question
         Console.WriteLine("What is your grade percentage?");
         string gradeMan = Console.ReadLine();
         int gradeRock = int.Parse(gradeMan);

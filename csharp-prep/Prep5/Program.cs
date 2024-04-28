@@ -3,7 +3,8 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {
+    {   
+        // whole program
         DisplayWelcome();
         
         string userName = PromptUserName();
