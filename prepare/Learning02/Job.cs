@@ -1,6 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-public class Job
+public class Job //class
 
 {
   public string _jobTitle;
