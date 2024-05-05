@@ -8,7 +8,7 @@ public class Entry
     public string _scripture;
 
     
-    public void Display()
+    public void Display() //connected
     {
 
     }

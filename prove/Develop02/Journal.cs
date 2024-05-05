@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.IO.Enumeration;
 
-public class Journal
+public class Journal //main
 {
-    public List<Entry> _entries = new List<Entry>();
+    public List<Entry> _entries = new List<Entry>(); //list
 
     public void AddEntry(Entry newEntry)
     {

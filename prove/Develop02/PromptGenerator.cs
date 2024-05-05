@@ -1,7 +1,7 @@
 using System.Security.Cryptography.X509Certificates;
 
 
-public class PromptGenerator
+public class PromptGenerator //main for prompt
 {
     public List<string> _prompts = new List<string>();
 
