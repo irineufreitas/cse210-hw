@@ -98,4 +98,12 @@ public class ListingActivity : Activity
        
         return $"{counString}";
     }
+
+    public void GetItemsList()
+    {
+        foreach (var item in _userInputs)
+        {
+            Console.WriteLine(item);
+        }
+    }
 }

@@ -122,6 +122,9 @@ class Program
                     listingActivity.Run(seconds);
                     
                     Console.WriteLine($"You listed {listingActivity.GetNumberItems()} items.\n");
+                    Console.WriteLine($"Here are the items you listed:\n");
+                    listingActivity.GetItemsList();
+                    Console.WriteLine("\n");
                     listingActivity.DisplayEndingMessage();
                     validInput = true;
                 }
