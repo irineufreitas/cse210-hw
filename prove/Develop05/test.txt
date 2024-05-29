@@ -1,0 +1,7 @@
+Score:530
+SimpleGoal:100k per month,make money every day,200,True
+Goal:scriptures,every day for forever,30
+ChecklistGoal:facebook posts,3 posts per day,300,300,2000,1
+SimpleGoal:100k per month,make money every day,200,False
+ChecklistGoal:facebook posts,3 posts per day,300,2000,300,1
+SimpleGoal:new try,work hard,20,False
